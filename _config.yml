@@ -1,4 +1,7 @@
 theme: jekyll-theme-minimal
 title: Jakub Malický – osobní portfolium
 description: Moje osobní portfolium, kde chci ukázat nějaké své projekty a zkušenost.
-favicon: "/ikona.png"
+favicon:
+  apple_touch_icon: "/apple-touch-icon.png"
+  favicon_32x32: "/favicon-32x32.png"
+  favicon_16x16: "/favicon-16x16.png"
