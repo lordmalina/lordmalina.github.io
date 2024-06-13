@@ -251,4 +251,17 @@
    */
   new PureCounter();
 
+  // Nastavte své datum narození
+  var birthDate = new Date('2002-10-02');
+  // Získejte aktuální datum
+  var currentDate = new Date();
+  // Spočítejte rozdíl mezi daty v ročnících
+  var age = currentDate.getFullYear() - birthDate.getFullYear();
+  // Pokud je aktuální datum před vaším narozením v aktuálním roce, odečtěte rok
+  if (currentDate.getMonth() < birthDate.getMonth() || (currentDate.getMonth() === birthDate.getMonth() && currentDate.getDate() < birthDate.getDate())) {
+      age--;
+  }
+  // Najděte element span s id "age" a nastavte text na vypočtený věk
+  document.getElementById('age').innerText = age;
+
 })()
