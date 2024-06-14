@@ -1019,6 +1019,12 @@ section .container {
   background-color: #18d26e;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: #00000078; /* Change to your desired color */
+}
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
