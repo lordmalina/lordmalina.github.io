@@ -1024,11 +1024,25 @@ section .container {
   color: #00000078; /* Change to your desired color */
 }
 
+.portfolio-details .swiper-wrapper {
+  display: flex;
+}
+
+.portfolio-details .swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .portfolio-details .swiper-slide img,
 .portfolio-details .swiper-slide video {
   max-width: 100%;
   height: auto;
+  display: block;
 }
+
 
 
 /*--------------------------------------------------------------
