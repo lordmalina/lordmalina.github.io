@@ -1024,6 +1024,12 @@ section .container {
   color: #00000078; /* Change to your desired color */
 }
 
+.portfolio-details .swiper-slide img,
+.portfolio-details .swiper-slide video {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /*--------------------------------------------------------------
 # Contact
