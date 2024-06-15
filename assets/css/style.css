@@ -839,7 +839,7 @@ section .container {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.85);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -922,7 +922,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #18d26e;
 }
 
 .portfolio .portfolio-wrap:hover::before {
