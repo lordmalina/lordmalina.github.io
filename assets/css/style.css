@@ -544,7 +544,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.20);
   transition: ease-in-out 0.3s;
 }
 
@@ -564,7 +564,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 /*--------------------------------------------------------------
